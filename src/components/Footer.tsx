@@ -5,10 +5,10 @@ export const Footer = () => {
   return (
     <footer className="bg-professional text-professional-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="col-span-1 lg:col-span-2">
-            <h3 className="text-lg font-semibold mb-4">Sterling & Associates CPA</h3>
+            <h3 className="text-lg font-semibold mb-4">Local Services</h3>
             <p className="text-professional-foreground/80 mb-4 leading-relaxed">
               Providing professional accounting services with integrity and objectivity. 
               Our experienced team delivers reliable financial solutions tailored to your business needs.
@@ -70,11 +70,30 @@ export const Footer = () => {
               </NavLink>
             </nav>
           </div>
+
+          {/* Government Links */}
+          <div>
+            <h4 className="text-md font-semibold mb-4">Government Resources</h4>
+            <nav className="space-y-2">
+              <a href="https://www.irs.gov" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                IRS - Internal Revenue Service
+              </a>
+              <a href="https://www.sba.gov" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                SBA - Small Business Administration
+              </a>
+              <a href="https://www.sec.gov" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                SEC - Securities and Exchange Commission
+              </a>
+              <a href="https://www.fasb.org" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                FASB - Financial Accounting Standards Board
+              </a>
+            </nav>
+          </div>
         </div>
 
         <div className="border-t border-professional-foreground/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-professional-foreground/60">
-            <p>&copy; 2024 Sterling & Associates CPA. All rights reserved.</p>
+            <p>&copy; 2024 Local Services. All rights reserved.</p>
             <div className="mt-4 md:mt-0 space-x-4">
               <span>Licensed in Metropolitan State</span>
               <span>•</span>

@@ -11,7 +11,7 @@ export const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              About Sterling & Associates CPA
+              About Local Services
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               A professional accounting firm committed to delivering exceptional financial services 
@@ -69,7 +69,7 @@ export const About = () => {
             
             <div className="prose max-w-none text-muted-foreground">
               <p className="text-lg leading-relaxed mb-6">
-                Sterling & Associates CPA was established with a fundamental commitment to providing 
+                Local Services was established with a fundamental commitment to providing 
                 professional accounting services that meet the highest ethical standards. Our practice 
                 is built on the principles of integrity, objectivity, and professional competence.
               </p>

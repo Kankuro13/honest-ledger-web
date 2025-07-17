@@ -34,7 +34,7 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <NavLink to="/" className="text-xl font-bold text-primary">
-              Sterling & Associates CPA
+              Local Services
             </NavLink>
           </div>
 
