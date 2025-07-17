@@ -16,19 +16,19 @@ export const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center text-sm">
                 <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
-                <span>123 Business District, Suite 456, Metropolitan City, MC 12345</span>
+                <span>Biratnagar-12, Main Road, Morang, Nepal</span>
               </div>
               <div className="flex items-center text-sm">
                 <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>+977-21-523456</span>
               </div>
               <div className="flex items-center text-sm">
                 <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
-                <span>info@sterlingcpa.com</span>
+                <span>info@localservices.com.np</span>
               </div>
               <div className="flex items-center text-sm">
                 <Clock className="h-4 w-4 mr-2 flex-shrink-0" />
-                <span>Monday - Friday: 8:00 AM - 6:00 PM</span>
+                <span>Sunday - Friday: 10:00 AM - 6:00 PM</span>
               </div>
             </div>
           </div>
