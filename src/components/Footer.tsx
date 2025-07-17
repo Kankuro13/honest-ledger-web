@@ -73,19 +73,22 @@ export const Footer = () => {
 
           {/* Government Links */}
           <div>
-            <h4 className="text-md font-semibold mb-4">Government Resources</h4>
+            <h4 className="text-md font-semibold mb-4">Nepal Government Resources</h4>
             <nav className="space-y-2">
-              <a href="https://www.irs.gov" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
-                IRS - Internal Revenue Service
+              <a href="https://www.ird.gov.np" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                IRD - Inland Revenue Department
               </a>
-              <a href="https://www.sba.gov" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
-                SBA - Small Business Administration
+              <a href="https://www.mof.gov.np" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                Ministry of Finance
               </a>
-              <a href="https://www.sec.gov" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
-                SEC - Securities and Exchange Commission
+              <a href="https://www.sebon.gov.np" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                SEBON - Securities Board of Nepal
               </a>
-              <a href="https://www.fasb.org" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
-                FASB - Financial Accounting Standards Board
+              <a href="https://www.ican.org.np" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                ICAN - Institute of Chartered Accountants
+              </a>
+              <a href="https://www.nrb.org.np" target="_blank" rel="noopener noreferrer" className="block text-sm text-professional-foreground/80 hover:text-professional-foreground transition-colors">
+                NRB - Nepal Rastra Bank
               </a>
             </nav>
           </div>
@@ -95,9 +98,9 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-professional-foreground/60">
             <p>&copy; 2024 Local Services. All rights reserved.</p>
             <div className="mt-4 md:mt-0 space-x-4">
-              <span>Licensed in Metropolitan State</span>
+              <span>Licensed in Nepal</span>
               <span>•</span>
-              <span>Member AICPA</span>
+              <span>Member ICAN</span>
             </div>
           </div>
         </div>
