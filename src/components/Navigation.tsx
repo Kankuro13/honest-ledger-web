@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Calculator } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -33,8 +33,9 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <NavLink to="/" className="text-xl font-bold text-primary">
-              Local Services
+            <NavLink to="/" className="flex items-center space-x-2 text-xl font-bold text-primary">
+              <Calculator className="h-6 w-6" />
+              <span>Local Services</span>
             </NavLink>
           </div>
 
